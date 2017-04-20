@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主显示界面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 用以替换显示地图的界面  -->
+    <FrameLayout
+        android:id="@+id/map_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        ></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rgRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        >
+        <RadioButton
+            android:id="@+id/rbRight1"
+            style="@style/radioStyle"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/rbRight2"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight3"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight4"
+            style="@style/radioStyle"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/rbRight5"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight6"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight7"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight8"
+            style="@style/radioStyle"
+            />
+        <RadioButton
+            android:id="@+id/rbRight9"
+            style="@style/radioStyle"
+            />
+    </RadioGroup>
+
+    <!--&lt;!&ndash; 楼层显示按钮 &ndash;&gt;-->
+    <!--<RadioGroup-->
+    <!--android:id="@+id/rgTest"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rbTest1"-->
+    <!--style="@style/radioStyle"-->
+    <!--android:checked="true" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rbTest2"-->
+    <!--style="@style/radioStyle" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rbTest3"-->
+    <!--style="@style/radioStyle" />-->
+
+    <!--</RadioGroup>-->
+
+</FrameLayout>

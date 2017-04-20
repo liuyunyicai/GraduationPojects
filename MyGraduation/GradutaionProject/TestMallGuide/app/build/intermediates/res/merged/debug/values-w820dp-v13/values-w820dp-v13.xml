@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingProgressBarAttr">
+        <attr format="integer" name="bar_angle"/>    <!--弧形的角度-->
+        <attr format="dimension" name="bar_height"/> <!--线的高度-->
+        <attr format="color" name="bar_color"/>      <!--线的颜色-->
+        <attr format="integer" name="bar_during"/>         <!--加载的时间-->
+        <attr format="dimension" name="circle_radius"/>    <!--圆球的半径-->
+        <attr format="color" name="circle_color"/>         <!--圆球的颜色-->
+    </declare-styleable>
+    <declare-styleable name="TextLine">
+        <attr format="dimension" name="line_height"/> <!--线的高度-->
+        <attr format="dimension" name="mid_width"/> <!--中间折现的宽度-->
+        <attr format="dimension" name="mid_height"/> <!--中间折线的高度-->
+        <attr format="string" name="mid_text"/>  <!--中间的文本-->
+        <attr format="color" name="line_color"/> <!--线的颜色-->
+        <attr format="color" name="text_color"/> <!--文本的颜色-->
+        <attr format="dimension" name="text_size"/>  <!--文本的size-->
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr format="dimension" name="border_thickness"/>
+        <attr format="color" name="border_inside_color"/>
+        <attr format="color" name="border_outside_color"/>
+    </declare-styleable>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

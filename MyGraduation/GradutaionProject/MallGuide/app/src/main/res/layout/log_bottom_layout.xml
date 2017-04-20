@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    >
+
+    <TextView
+        android:id="@+id/goto_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@drawable/goto_bt"
+        android:gravity="center"
+        />
+
+    <hust.mallguide.logreg.TextLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:line_height="2dp"
+        app:mid_width="30dp"
+        app:mid_height="30dp"
+        app:mid_text="@string/botton_txt"
+        app:line_color="@color/more_white"
+        app:text_color="@color/dark_gray"
+        app:text_size="15sp"
+        />
+
+    <TextView
+        android:id="@+id/visitor_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@drawable/txt_bt"
+        android:gravity="center"
+        />
+
+</LinearLayout>

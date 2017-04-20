@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--App提供服务的Layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:paddingBottom="1dp"
+    >
+
+    <TextView
+        android:id="@+id/myservice_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/hot_layoutbg"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_below="@id/myservice_head"
+        android:background="@color/hot_layoutbg"
+
+        >
+        <ImageView
+            android:id="@+id/myservice_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/service1_icon"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/myservice_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="订制购物路线"
+            android:textColor="@color/line_gray"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

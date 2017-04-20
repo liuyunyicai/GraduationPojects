@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.example.neal.testmallguide.loaddata.PrecentProgressBar
+        android:id="@+id/mProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_data"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15sp"
+        android:layout_alignLeft="@id/mProgressBar"
+        android:layout_above="@id/mProgressBar"
+        />
+
+</RelativeLayout>

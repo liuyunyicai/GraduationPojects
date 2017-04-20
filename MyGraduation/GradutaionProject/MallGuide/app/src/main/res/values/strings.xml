@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MallGuide</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="log_act">登录界面</string>
+    <string name="main_act">主界面</string>
+
+    <string name="name_str">账号</string>
+    <string name="name_hint">手机号/邮箱地址</string>
+    <string name="passed_str">密码</string>
+    <string name="passed_hint">初始化密码</string>
+    <string name="random_str">>>>></string>
+    <string name="random_hint">滑动获取验证码</string>
+
+    <string name="input_random">请输入验证码</string>
+
+    <string name="more_txt"><u>忘记密码？</u></string>
+    <string name="load_txt">开  启  购  物  之  旅</string>
+    <string name="reg_txt">快 捷 注 册</string>
+    <string name="reg_more_txt"><u>已有账号！</u></string>
+
+    <string name="botton_txt">MORE</string>
+
+    <string name="no_reg"><u>还没有注册？</u></string>
+    <string name="already_reg"><u>已有注册账号</u></string>
+    <string name="visitor_txt">随便逛逛</string>
+
+    <string name="tab_title_txt1">随便逛逛</string>
+    <string name="tab_title_txt2">导航地图</string>
+    <string name="tab_title_txt3">精品商城</string>
+    <string name="tab_title_txt4">个人信息</string>
+
+    <string name="radio1">商场</string>
+    <string name="radio2">导航</string>
+    <string name="radio3">服务</string>
+    <string name="radio4">个人</string>
+
+    <string name="exit_tag">连续点击退出应用！</string>
+
+    <string name="style1">服饰</string>
+    <string name="style2">美食</string>
+    <string name="style3">酒店</string>
+    <string name="style4">电影</string>
+
+    <string-array name="style_txts">
+        <item>服饰</item>
+        <item>美食</item>
+        <item>酒店</item>
+        <item>电影</item>
+    </string-array>
+    <string name="radio_str">3F</string>
+
+    <string name="rbright1">单层</string>
+    <string name="rbright2">多层</string>
+    <string name="rbright3">全景</string>
+    <string name="rbright4">3D</string>
+    <string name="rbright5">定位</string>
+
+    <string name="rbtest1">1F</string>
+    <string name="rbtest2">2F</string>
+    <string name="rbtest3">3F</string>
+
+    <string name="threed_txt1">横移</string>
+    <string name="threed_txt2">纵移</string>
+    <string name="threed_txt3">全景</string>
+
+    <string name="scan_text">将二维码放入框内, 自动扫描</string>
+
+
+</resources>

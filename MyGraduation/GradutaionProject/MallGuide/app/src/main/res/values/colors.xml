@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="little_gray">#f1f1f1</color>
+    <color name="dark_gray">#706f6f</color>
+    <color name="dark_blue">#77a5ea</color>
+    <color name="little_blue">#699dea</color>
+    <color name="little_white">#c8e1e2ec</color>
+    <color name="more_white">#e7e8ed</color>
+
+    <color name="black">#161616</color>
+    <color name="tan">#efa615</color>
+    <color name="tabPressed">#33ccff</color><!--TAB键按下的背景颜色-->
+
+    <color name="color_item_press">#ffff0000</color>
+    <color name="color_item_normal">#44ff0000</color>
+    <color name="color_bg">#93f4f7</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="peachpuff">#3fadb5</color>
+
+    <color name="hot_layoutbg">#f1f1f1</color> <!--热门推荐的背景色-->
+    <color name="line_gray">#545454</color><!--灰色-->
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+
+</resources>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\laoding_logo.jpg",
+        "source": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\src\\main\\res\\mipmap-hdpi\\laoding_logo.jpg"
+    },
+    {
+        "merged": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\fire.jpg",
+        "source": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\src\\main\\res\\mipmap-hdpi\\fire.jpg"
+    },
+    {
+        "merged": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\nanyi.jpg",
+        "source": "D:\\MyGithub\\MyGraduation\\GradutaionProject\\TestMallGuide\\app\\src\\main\\res\\mipmap-hdpi\\nanyi.jpg"
+    }
+]
