@@ -1,0 +1,23 @@
+package aco;
+
+
+public class Utils {
+	
+	public static double[] abs(double[] datas) {
+		double[] absData = datas.clone();
+		
+		for (int i = 0; i < datas.length; i++) {
+			absData[i] = Math.abs(datas[i]);
+		}
+		return absData;
+	}
+	
+	public static double sum(double[] datas) {
+		double result = 0;
+		for (int i = 0; i < datas.length; i++) {
+			result += datas[i];
+		}
+		return result;
+	}
+
+}

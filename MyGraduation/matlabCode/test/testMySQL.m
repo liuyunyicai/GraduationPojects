@@ -1,0 +1,1 @@
+conn =database('guide_db','root','kaiyuan','com.mysql.jdbc.Driver','jdbc:mysql://localhost:3306/tissueppi')

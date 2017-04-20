@@ -1,0 +1,52 @@
+package aco;
+/*
+ * 蚁群算法相关参数 
+ **/
+public class AcoParameters {
+    private double Alpha;
+    private double Beta;
+    private double Rho;
+    private double Q;
+
+    public AcoParameters() {}
+
+
+    public AcoParameters(double alpha, double beta, double rho, double q) {
+        Alpha = alpha;
+        Beta = beta;
+        Rho = rho;
+        Q = q;
+    }
+
+    public double getAlpha() {
+        return Alpha;
+    }
+
+    public void setAlpha(double alpha) {
+        Alpha = alpha;
+    }
+
+    public double getBeta() {
+        return Beta;
+    }
+
+    public void setBeta(double beta) {
+        Beta = beta;
+    }
+
+    public double getRho() {
+        return Rho;
+    }
+
+    public void setRho(double rho) {
+        Rho = rho;
+    }
+
+    public double getQ() {
+        return Q;
+    }
+
+    public void setQ(double q) {
+        Q = q;
+    }
+}

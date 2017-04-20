@@ -1,0 +1,64 @@
+package aco;
+
+/**
+ * Created by nealkyliu on 2017/4/5.
+ * 基本常量
+ */
+public interface ConstantValues {
+    // 优化策略类型
+    int OPTIMIZE_FIRE = 11; // 将火场参数信息引入进来
+    int OPTIMIZE_FIRE1 = 12; // 将火场参数信息引入进来
+    int OPTIMIZE_FIRE2 = 13; // 将火场参数信息引入进来
+    int OPTIMIZE_FIRE3 = 14; // 将火场参数信息引入进来
+    int OPTIMIZE_ALL = 15;  // 选用所有优化策略
+    int OPTIMIZE_10 = 10; // 采用原始的蚁群算法
+    int OPTIMIZE_1 = 1;     // 采用单项的优化策略
+    int OPTIMIZE_2 = 2;
+    int OPTIMIZE_3 = 3;
+    int OPTIMIZE_4 = 4;
+    int OPTIMIZE_5 = 5;
+    int OPTIMIZE_6 = 6;
+    int OPTIMIZE_7 = 7;
+    int OPTIMIZE_8 = 8;
+    int OPTIMIZE_9 = 9;
+    // GridInfo中相关参数的位置
+    int GRID_INDEX_TYPE = 1;
+    int GRID_INDEX_ISFREE = 2;
+    int GRID_INDEX_TEMPERATURE = 3;
+    int GRID_INDEX_SMOKE = 4;
+    int GRID_INDEX_O2 = 5;
+    int GRID_INDEX_CO = 6;
+    int GRID_INDEX_CO2 = 7;
+    int GRID_INDEX_PEOPLENUM = 8;
+
+    // 出口类型
+    int EXIT_POINT = 2 ^ 0;   //(出口)
+    int COMMON_POINT = 2 ^ 1;   //(普通通道)
+    int DOOR_POINT = 2 ^ 2;   //(通道口)
+    int ELEVATOR_POINT = 2 ^ 3;   //(电梯口)
+    int STAIRCASE_POINT = 2 ^ 4;   //(楼梯口)
+    int FIREHYDRANT_POINT = 2 ^ 5; //(消防栓)
+
+    // 表征楼梯能够前进的方向
+    int STAIR_UP = 1;  // 可上行
+    int STAIR_DOWN = 2; // 可下行
+    int STAIR_IP_DOWN = 0; // 可上下通行
+
+    // 表征障碍物性质
+    int ISACCESSED_ZONE = 1; // 可通行
+    int BLOCKED_ZONE = 2;      // 有障碍物阻挡
+    int FIRED_ZONE = 0;//火灾死亡区域
+    int DANGER_ZONE = 3;        // 危险区域
+    int CROWED_ZONE = 4;      // 拥挤区域
+
+    // 火场各因素的最大值大小
+    float DEATH_TEMPERATURE = 120; // 死亡温度120度
+    float DEATH_O2 = 10;
+    float DEATH_CO = 100;
+    float DEATH_CO2 = 10;
+    float DEATH_PEOPLE_NUM = 1.5f;
+
+    int OUTPUT_ROUTE = 0;
+    
+    double v0 = 1.33;
+}

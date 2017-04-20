@@ -1,0 +1,22 @@
+package test;
+
+import aco.AcoParameters;
+
+public class AcoMain {
+
+	public static void main(String[] args) {
+		AcoParameters mAcoParameters 
+	}
+	
+	private static AcoParameters setAcoParameters() {
+		int cycle_max = 50;
+		int ant_num = 50;
+		double Alpha = 1.0;
+		double Beta = 1.0;
+		double Rho = 0.5;
+		double Q = 10;
+		
+		int max_step = 
+	}
+	
+}

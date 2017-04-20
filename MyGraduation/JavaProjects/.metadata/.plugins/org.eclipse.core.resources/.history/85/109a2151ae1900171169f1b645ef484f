@@ -1,0 +1,27 @@
+package test;
+
+import aco.AcoParameters;
+import aco.ConstantValues;
+
+public class AcoMain implements ConstantValues{
+
+	public static void main(String[] args) {
+		AcoParameters mAcoParameters 
+	}
+	
+	private static AcoParameters setAcoParameters(int gridSize) {
+		int cycle_max = 50;
+		int ant_num = 50;
+		double Alpha = 1.0;
+		double Beta = 1.0;
+		double Rho = 0.5;
+		double Q = 10;
+		
+		int max_step = (int) Math.pow(gridSize, 0.65);
+		int[] optimizedIndexs = {OPTIMIZE_1, OPTIMIZE_2, OPTIMIZE_3, OPTIMIZE_4, OPTIMIZE_5, OPTIMIZE_6,
+				OPTIMIZE_7, OPTIMIZE_8, OPTIMIZE_9, OPTIMIZE_10, OPTIMIZE_FIRE, OPTIMIZE_FIRE1, OPTIMIZE_FIRE2,
+				OPTIMIZE_FIRE3, OPTIMIZE_ALL};
+		
+	}
+	
+}

@@ -1,0 +1,15 @@
+package aco;
+
+public class AcoParameters {
+	private double Alpha;
+	private double Beta;
+	private double Rho;
+	private double Q;
+	
+	public AcoParameters() {}
+	
+	
+	
+	
+
+}

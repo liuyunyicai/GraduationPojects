@@ -1,0 +1,15 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+public class OutputFDS {
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

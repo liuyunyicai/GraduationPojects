@@ -1,0 +1,107 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.security.auth.x500.X500Principal;
+
+public class Main {
+
+//	private static final int UNACCESS = 1000;
+//	private static Scanner in;
+//	static int[][] datas = {
+//			{0,        2,        10,       5,        3,        UNACCESS},
+//			{UNACCESS, 0,        12,       UNACCESS, UNACCESS, 10},
+//			{UNACCESS, UNACCESS, 0,        UNACCESS, 7,        UNACCESS},
+//			{2,        UNACCESS, UNACCESS, 0,        2,        UNACCESS},
+//			{4,        UNACCESS, UNACCESS, 1,        0,        UNACCESS},
+//			{3,        UNACCESS, 1,        UNACCESS, 2,        0}
+//	};
+//	private static List<String> pers = new ArrayList<>();
+//	
+//	public static void main(String[] args) {		
+//		in = new Scanner(System.in);
+//		while(in.hasNext()) {
+//			int start = 5;
+//			int X = in.nextInt();
+//			int Y = in.nextInt();
+//			
+//			if (Y != 0) {
+//				for (int j = 0; j < datas.length; j++) {
+//					datas[Y - 1][j] = UNACCESS;
+//					datas[j][Y -1] = UNACCESS;
+//				}
+//			}
+//			
+//			
+//			int bestTime = Integer.MAX_VALUE;
+//			List<Integer> route = new ArrayList<>();
+//			
+//			String s = "12346";
+//	        String result = "";
+//	        permutation(s, result, s.length());
+//	       
+//			
+//			String best_route = "";
+//			for (int i = 0; i < pers.size(); i++) {
+//				String per = "5" + pers.get(i);
+//				int temp_best = 0;
+//				for (int j = 0; j < per.indexOf("" + X); j++) {
+//					temp_best += datas[per.charAt(j) - '0' - 1][Integer.valueOf(per.charAt(j + 1)) - '0' - 1] ;
+//				}
+//				
+//				if ((bestTime > temp_best)) {
+//					bestTime = temp_best; 
+//					best_route = per;
+//				}
+//			}
+//			
+//			if (bestTime < UNACCESS) {
+//				System.out.println(bestTime);
+//				
+//				for (int j = 0; j < best_route.indexOf("" + X) + 1; j++) {
+//					route.add(best_route.charAt(j) - '0');
+//				}
+//				System.out.println(route);
+//			} else {
+//				System.out.println(UNACCESS);
+//				System.out.println("[]");
+//			}
+//			
+//			
+//		}
+//	}
+//	
+//	public static void permutation(String str, String result, int len) {
+//		if (result.length() == len) { 
+//			pers.add(result);
+//		} else {
+//			for (int i = 0; i < str.length(); i++) {
+//				if (result.indexOf(str.charAt(i)) < 0) {
+//					permutation(str, result + str.charAt(i), len);
+//				}
+//			}
+//		}
+//	}
+	public static void main(String[] args) {		
+		int[][] toFind = {{1 , 2}, {2, 4}, {1, 2}};
+		int[] child = {1 , 5};
+		System.out.println(isMember(toFind, child));
+	}
+	
+	// 判断数组中是否存在
+    private static int isMember(int[][] toFind, int[] child) {
+    	int index = -1;
+    	for (int size = 0; size < toFind.length; size ++) {
+    		int[] data = toFind[size];
+    		if (data.length != child.length)
+    			return -1;
+    		for (int i = 0; i < data.length; i++) {
+    			if (data[i] != child[i])
+    				break;
+    		}
+    		index = size;
+    		return index;
+    	}
+    	return index;
+    }
+}

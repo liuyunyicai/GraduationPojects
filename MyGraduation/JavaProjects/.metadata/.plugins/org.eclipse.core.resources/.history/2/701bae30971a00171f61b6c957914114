@@ -1,0 +1,11 @@
+package aco;
+
+public class InitGrid {
+	
+	public static GridInfo[][][] initGridInfos() {
+		GridInfo[][][] gridInfos;
+		
+		return gridInfos;
+	}
+
+}

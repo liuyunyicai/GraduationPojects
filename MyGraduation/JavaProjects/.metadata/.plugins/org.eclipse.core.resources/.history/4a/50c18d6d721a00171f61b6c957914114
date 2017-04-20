@@ -1,0 +1,93 @@
+package aco;
+
+import javax.swing.Box.Filler;
+
+public class Utils {
+	
+	public static double[] abs(double[] datas) {
+		double[] absData = datas.clone();
+		
+		for (int i = 0; i < datas.length; i++) {
+			absData[i] = Math.abs(datas[i]);
+		}
+		return absData;
+	}
+	
+	public static double sum(double[] datas) {
+		double result = 0;
+		for (int i = 0; i < datas.length; i++) {
+			result += datas[i];
+		}
+		return result;
+	}
+	
+	public static double[] division(double[] datas, double value) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] /= value;
+		}
+		return datas;
+	}
+	
+	public static double[] exps(double[] datas) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] = Math.exp(datas[i]);
+		}
+		return datas;
+	}
+	
+	public static double[] pows(double[] datas, double value) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] = Math.pow(datas[i], value);
+		}
+		return datas;
+	}
+	
+	public static double[] dot(double[] x, double[] y) {
+		for (int i = 0; i < x.length; i++) {
+			x[i] = x[i] * y[i];
+		}
+		return x;
+	}
+	
+	public static boolean isEqual(double[] datas, double[] y) {
+		if (datas.length != y.length)
+			return false;
+		for (int i = 0; i < datas.length; i++) {
+			if (datas[i] != y[i])
+				return false;
+		}
+		return true;
+	} 
+	
+	public static boolean isEqual(int[] datas, int[] y) {
+		if (datas.length != y.length)
+			return false;
+		for (int i = 0; i < datas.length; i++) {
+			if (datas[i] != y[i])
+				return false;
+		}
+		return true;
+	} 
+	
+	public static int[] fill(int[] datas, int[] values) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] = values[i];
+		}
+		return datas;
+	}
+	
+	public static double[] fill(double[] datas, double[] values) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] = values[i];
+		}
+		return datas;
+	}
+	
+	public static <T> T[] fill(T[] datas, T[] values) {
+		for (int i = 0; i < datas.length; i++) {
+			datas[i] = values[i];
+		}
+		return datas;
+	}
+
+}

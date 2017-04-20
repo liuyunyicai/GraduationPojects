@@ -1,0 +1,92 @@
+package aco;
+/*
+ * 蚁群算法相关参数 
+ **/
+public class AcoParameters {
+    private double Alpha;
+    private double Beta;
+    private double Rho;
+    private double Q;
+    private int cycle_max;
+    private int ant_num;
+    private int max_step;
+    private int optimizeTypes;
+
+    public AcoParameters() {
+    }
+
+    public AcoParameters(double alpha, double beta, double rho, double q, int cycle_max, int ant_num, int max_step, int optimizeTypes) {
+        Alpha = alpha;
+        Beta = beta;
+        Rho = rho;
+        Q = q;
+        this.cycle_max = cycle_max;
+        this.ant_num = ant_num;
+        this.max_step = max_step;
+        this.optimizeTypes = optimizeTypes;
+    }
+
+    public double getAlpha() {
+        return Alpha;
+    }
+
+    public void setAlpha(double alpha) {
+        Alpha = alpha;
+    }
+
+    public double getBeta() {
+        return Beta;
+    }
+
+    public void setBeta(double beta) {
+        Beta = beta;
+    }
+
+    public double getRho() {
+        return Rho;
+    }
+
+    public void setRho(double rho) {
+        Rho = rho;
+    }
+
+    public double getQ() {
+        return Q;
+    }
+
+    public void setQ(double q) {
+        Q = q;
+    }
+
+    public int getCycle_max() {
+        return cycle_max;
+    }
+
+    public void setCycle_max(int cycle_max) {
+        this.cycle_max = cycle_max;
+    }
+
+    public int getAnt_num() {
+        return ant_num;
+    }
+
+    public void setAnt_num(int ant_num) {
+        this.ant_num = ant_num;
+    }
+    
+    public int getMaxStep() {
+    	return max_step;
+    }
+    
+    public void setMaxStep(int max_step) {
+    	this.max_step = max_step;
+    }
+    
+    public int getOptimizeTypes() {
+    	return optimizeTypes;
+    }
+    
+    public void setOPtimizeTypes(int optimizeTypes) {
+    	this.optimizeTypes = optimizeTypes;
+    } 
+}
