@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.neal.testmallguide.floorsview.route.RouteInfo;
+import com.example.neal.testmallguide.floorsview.zoom.ZoomListenter;
 import com.example.neal.testmallguide.loaddata.DataInfo;
 import com.example.neal.testmallguide.utils.SharedUtils;
 import com.squareup.okhttp.Route;
@@ -25,7 +26,7 @@ import javax.microedition.khronos.egl.EGLDisplay;
 /**
  * Created by neal on 2017/3/15.
  */
-public class BaseThreeDFragment extends Fragment {
+public class BaseThreeDFragment extends Fragment{
     public static final String FLOOR_NUM_BUNDLE = "floor_num_bundle"; // 用来楼层传递模型地址数据
     private int mFloorNum;
 
@@ -38,6 +39,8 @@ public class BaseThreeDFragment extends Fragment {
 
     private float xpos = -1;
     private float ypos = -1;
+
+    private RenderZoomListener mZoomListener;
 
     @Nullable
     @Override
@@ -76,6 +79,7 @@ public class BaseThreeDFragment extends Fragment {
         // 设置View的渲染器，同时启动线程调用渲染，以至启动渲染
         mGLView.setRenderer(renderer);
 
+        mZoomListener = new RenderZoomListener();
 
         return mGLView;
     }
@@ -122,40 +126,43 @@ public class BaseThreeDFragment extends Fragment {
     }
 
     public boolean onTouchEvent(MotionEvent me) {
-        // 按键开始
-        if (me.getAction() == MotionEvent.ACTION_DOWN) {
-            // 保存按下的初始x,y位置于xpos,ypos中
-            xpos = me.getX();
-            ypos = me.getY();
-            return true;
-        }
-        // 按键结束
-        if (me.getAction() == MotionEvent.ACTION_UP) {
-            // 设置x,y及旋转角度为初始值
-            xpos = -1;
-            ypos = -1;
-            renderer.touch_x = 0;
-            renderer.touch_y = 0;
-            return true;
-        }
-        if (me.getAction() == MotionEvent.ACTION_MOVE) {
-            // 计算x,y偏移位置及x,y轴上的旋转角度
-            float xd = me.getX() - xpos;
-            float yd = me.getY() - ypos;
-            xpos = me.getX();
-            ypos = me.getY();
-            // 以x轴为例，鼠标从左向右拉为正，从右向左拉为负
-            renderer.touch_x = xd / 3f;
-            renderer.touch_y = yd / 3f;
-            return true;
-        }
-        // 每Move一下休眠毫秒
-        try {
-            Thread.sleep(15);
-        } catch (Exception e) {
-            // No need for this...
-        }
-        return false;
+//        // 按键开始
+//        if (me.getAction() == MotionEvent.ACTION_DOWN) {
+//            // 保存按下的初始x,y位置于xpos,ypos中
+//            xpos = me.getX();
+//            ypos = me.getY();
+//            return true;
+//        }
+//        // 按键结束
+//        if (me.getAction() == MotionEvent.ACTION_UP) {
+//            // 设置x,y及旋转角度为初始值
+//            xpos = -1;
+//            ypos = -1;
+//            renderer.touch_x = 0;
+//            renderer.touch_y = 0;
+//            return true;
+//        }
+//        if (me.getAction() == MotionEvent.ACTION_MOVE) {
+//            // 计算x,y偏移位置及x,y轴上的旋转角度
+//            float xd = me.getX() - xpos;
+//            float yd = me.getY() - ypos;
+//            xpos = me.getX();
+//            ypos = me.getY();
+//            // 以x轴为例，鼠标从左向右拉为正，从右向左拉为负
+//            renderer.touch_x = xd / 3f;
+//            renderer.touch_y = yd / 3f;
+//            return true;
+//        }
+//        // 每Move一下休眠毫秒
+//        try {
+//            Thread.sleep(15);
+//        } catch (Exception e) {
+//            // No need for this...
+//        }
+//        return false;
+
+
+        return mZoomListener.onTouch(mGLView, me);
     }
 
     /*
@@ -173,6 +180,30 @@ public class BaseThreeDFragment extends Fragment {
     public void drawZone(List<RouteInfo> zoneInfos, int type) {
         if (null != zoneInfos) {
             renderer.drawZone(zoneInfos, type);
+        }
+    }
+
+    /*
+    * 用以缩放的类
+    **/
+    private class RenderZoomListener extends ZoomListenter {
+        private static final float param = 3f;
+
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            return super.onTouch(v, event);
+        }
+
+        @Override
+        protected void zoom(float f) {
+            super.zoom(f);
+            renderer.setScale(f);
+        }
+
+        @Override
+        protected void drag(float x, float y) {
+            super.drag(x, y);
+            renderer.setTranslate(x / param, y / param);
         }
     }
 

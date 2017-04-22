@@ -2,158 +2,158 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\2.1.0\9414c1d4578673dac83a23119009624fd695726d\greendao-2.1.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="9414c1d4578673dac83a23119009624fd695726d">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-2.1.0_1ea1ef999ba700382b5a31007ffc5bd5d45833d9\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_6f62af145dbba2b9c61db1cf105ff6841a7d98c5\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\libs\GetuiSDK2.10.2.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="42fa5f206accc54f63357aef61409a9e88eccb8e">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.10.2.0_ab633f204910b8b5d607fb6d28e810a4c400a2ac\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.0_a73fe558a059f689d8dc52c5f0dcc8ab7b09b06e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.0.1_2a41aae04c241e87add87ea74a8450d0be01312d\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="0a7a51391da505c6c702fe967cc268adf58ba4e5">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3eeb9b22c916dd0658e64d6b304125b85747c15\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta2\3a233746381a03dbb0f5f3ed10b11c3e72dba499\adapter-rxjava-2.0.0-beta2.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="3a233746381a03dbb0f5f3ed10b11c3e72dba499">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta2_6e5193248e552d1e7aa14b4ca066a2e3a7620a8c\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\libs\jpct_ae.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="637e867c201c4e0ad07f0dbf648b3783c7fa2b4d">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpct_ae_0798860014bfae5ddfa01550a11bc130f1b97c55\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
         jumboMode="true"
         revision="25.0.0"
         sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.0.1_5934554c5bdb31a1d6da3310343c7686d12513fc\classes.dex" />
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.0.1_befef7e0a1974d6f5812c2bed4f2beef7a67196f\classes.dex" />
     </item>
     <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.1.0_bdb53af84c9ceb4e262bcd21505bbf2ea5197436\classes.dex" />
+        sha1="d786e14126d2dd8fc7b619c6a4ee583126274e9e">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_62bf91fd8d04ebc3f887d649e4da2cbdf7d2175f\classes.dex" />
     </item>
     <item
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta2\3a233746381a03dbb0f5f3ed10b11c3e72dba499\adapter-rxjava-2.0.0-beta2.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_7cd194c6f3f4f301c835750b93d55cdb37d12acf\classes.dex" />
+        sha1="3a233746381a03dbb0f5f3ed10b11c3e72dba499">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta2_14b31040d21787e9617617000f7b41e86e625761\classes.dex" />
     </item>
     <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_22af1a32891c472fed0a3ba77ca70bd0207448f1\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_5863c3f50673fd3264bdd00f426a9643ce630baf\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_b74023ac811f8dba7bfaec43b924cf2c9a477c8d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_3a6029e55a75152295ba473805ec91d127933317\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta2_47dd8b764ce971bf4896c01b3ae5b7f8d00a5038\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.4.0\a0c195f14cefc7597e0bebf22c3e7b43920dcf4\okhttp-urlconnection-2.4.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="0a0c195f14cefc7597e0bebf22c3e7b43920dcf4">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.4.0_d71b37ab83335296bd71e93513fea35c5ce02c00\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.5.0_468c82d8f4efd2a0519e53f79a0b50b9a84e9562\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_0c947c86862da3fac16175feee125e5da8470e14\classes.dex" />
-    </item>
-    <item
-        jar="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="e377ab9316b371aeb93bf5c0d3a6a9f22a88076c">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c86947de3b82336629865db01bf9229872bc59d3\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\3.0.0-beta1\d4a559b2dfb3e8a00ed37c440e118584f60db046\eventbus-3.0.0-beta1.jar"
-        jumboMode="true"
-        revision="25.0.0"
-        sha1="d4a559b2dfb3e8a00ed37c440e118584f60db046">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0-beta1_8f8edee0f1d9e0c337db3aed49b2a4b6540c651f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\nealkyliu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
         jumboMode="true"
         revision="25.0.0"
         sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
-        <dex dex="D:\MyGithub\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta2_c790ff533a32616aea11855c3fae0d607262a417\classes.dex" />
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta2_51d54bc875e97cde199d436ffa947148ac56ecf3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\3.0.0-beta1\d4a559b2dfb3e8a00ed37c440e118584f60db046\eventbus-3.0.0-beta1.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d4a559b2dfb3e8a00ed37c440e118584f60db046">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0-beta1_7485ec09a8ed74d871b2846e63dc45272c163b58\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.1.0_95dd6e36a90fc1349691e507fc0c89cccccb69f9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.0_333408b4f3d7103da5dfa300d41e24b2ef5f3419\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_3fa3451ff5a791151ca03bdc1b2ad6935a4893a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.0.1_b53482b0376e0afece5e88b5390a77f2296612b8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.4.0\a0c195f14cefc7597e0bebf22c3e7b43920dcf4\okhttp-urlconnection-2.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="0a0c195f14cefc7597e0bebf22c3e7b43920dcf4">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.4.0_f55bc3d67ef36692023f827fb9d5d590de600a6b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.5.0_13d5cff4237fcebd5b3de5e639a7bd0c3523eae7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta2_7dd8b293daac93b1b0518dc3b0525cef7572e138\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_04a99bbb79dfac0349b87ec3c4ab394d7a76ba9d\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_5208780ed69f1e62dfbc48f0c0bb92c78fec0973\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\libs\GetuiSDK2.10.2.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="42fa5f206accc54f63357aef61409a9e88eccb8e">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.10.2.0_23a0ff738ae9bcbdb65bf965246b388de7da9eea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\2.1.0\9414c1d4578673dac83a23119009624fd695726d\greendao-2.1.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="9414c1d4578673dac83a23119009624fd695726d">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-2.1.0_cb578ec9ae36e5aef36b2cea50016c97d73655f5\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_014904d989f656118f99372eb060ab9b945597a8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_51775ede50b3ab53935b8cde7d31d45102ba8ddc\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_b23a368c59686fa371d77232aece68b152056673\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="eab3753209bd3288879a6223b908223862e77542">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a316d97c11e7b9b1d5b879a54335ee6e95a39e64\classes.dex" />
+    </item>
+    <item
+        jar="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\libs\jpct_ae.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="637e867c201c4e0ad07f0dbf648b3783c7fa2b4d">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpct_ae_e12b8c66cd4338b159e5f1cf3dac5e16abc55cff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\neal\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\MyGithub\GraduationPojects\MyGraduation\GradutaionProject\TestMallGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a44f636321afd4000e6c73ee5e2a0239bda4de6a\classes.dex" />
     </item>
 
 </items>

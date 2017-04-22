@@ -262,17 +262,11 @@ public class BuildingRender implements GLSurfaceView.Renderer {
         world.renderScene(fb);
         world.draw(fb);
         fb.display();
+        move();
 
-        // 对滑动的响应
-        if ((touch_x != 0)||(touch_y != 0)) {
-            rockModel.translate(touch_x, touch_y, 0);
 
-            for (Object3D object : objects) {
-                object.translate(touch_x, touch_y, 0);
-            }
-            touch_x = 0;
-            touch_y = 0;
-        }
+        // 对缩放的响应
+
 
         if (System.nanoTime() - time >= 1000000000) {
             fps = 0;
@@ -281,6 +275,8 @@ public class BuildingRender implements GLSurfaceView.Renderer {
         //
         fps++;
     }
+
+
 
     public static int loadShader(int type, String shaderCode) {
         int shader = GLES20.glCreateShader(type);
@@ -409,9 +405,8 @@ public class BuildingRender implements GLSurfaceView.Renderer {
     }
 
     /**
-     * 判断是那个楼梯出口
+     * 判断是哪个楼梯出口
      ***/
-
     private StairsInfo getCurStairs(RouteInfo routeInfo) {
         List<StairsInfo> stairsInfos = DataInfo.getInstance().getStairsInfos();
 
@@ -442,6 +437,50 @@ public class BuildingRender implements GLSurfaceView.Renderer {
             return true;
         }
         return false;
+    }
+
+    /*
+    ********************* 平移缩放相关 *******************
+    **/
+    public void setTranslate(float deta_x, float deta_y) {
+        touch_x = deta_x;
+        touch_y = deta_y;
+
+//        LogUtils.e("move detaX=" + deta_x + "; detaY=" + deta_y);
+    }
+
+    public void setScale(float scale) {
+        mScale *= scale;
+        zoom(scale);
+
+//        LogUtils.i("mScale=" + mScale + ";scale=" + scale);
+    }
+
+    /*
+    * 进行缩放操作
+    **/
+    private void zoom(float scale) {
+        if (null != rockModel)
+            rockModel.setScale(rockModel.getScale() * scale);
+
+        for (Object3D object : objects) {
+            object.setScale(object.getScale() * scale);
+        }
+
+    }
+
+    /*移动*/
+    private void move() {
+        // 对滑动的响应
+        if ((touch_x != 0)||(touch_y != 0)) {
+            rockModel.translate(touch_x, touch_y, 0);
+
+            for (Object3D object : objects) {
+                object.translate(touch_x, touch_y, 0);
+            }
+            touch_x = 0;
+            touch_y = 0;
+        }
     }
 
 

@@ -29,7 +29,7 @@ public class Push {
 		template.setIsClearable(true);
 		// 设置打开的网址地址
 		template.setTransmissionType(1);
-		template.setTransmissionContent("0");
+		template.setTransmissionContent("1");
 		
         List<String> appIds = new ArrayList<String>();
         appIds.add(appId);
